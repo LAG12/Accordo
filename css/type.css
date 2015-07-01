@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'practiquecondensed_semibold';
+    src: url('../fonts/Practique-webfont.eot');
+    src: url('../fonts/Practique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Practique-webfont.woff2') format('woff2'),
+         url('../fonts/Practique-webfont.woff') format('woff'),
+         url('../fonts/Practique-webfont.ttf') format('truetype'),
+         url('../fonts/Practique-webfont.svg#practiquecondensed_semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	
+p {padding-bottom:8px;}	
+	
+h1 {font: 27em/0.9em 'practiquecondensed_semibold', sans-serif; }
+h2 {font: 6.5em/1.2em 'practiquecondensed_semibold', sans-serif; }
+h3 {font: 4em/1.2em 'practiquecondensed_semibold', sans-serif;}
+h4 {font: 3.5em/1em 'practiquecondensed_semibold', sans-serif; }
+
+h6 {font: italic 2em/1em Georgia, "Times New Roman", Times, serif;} 
+
+.glyphs li { font: 6em/1em 'PractiqueCondensedSemiBold', sans-serif; }
+
+
+h3.tag {font: italic 3.4em/1.2em Georgia, "Times New Roman", Times, serif;}
+
+.bfi p {font: italic 1.5em/1.2em Georgia, "Times New Roman", Times, serif; text-align:center;}
+
+

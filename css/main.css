@@ -1,0 +1,76 @@
+
+/*custom font for text*/
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+/*CSS file for fontawesome - an iconfont we will be using. This CSS file imported contains the font-face declaration. 
+More info: http://fortawesome.github.io/Font-Awesome/ */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css);
+
+/*Basic reset*/
+* {margin: 0; padding: 0;}
+
+body {
+	background:#86ADEA;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:white;
+}
+.accordo {
+	background: #34495E;
+	width: 80%;
+	margin: 2% auto 0 auto;
+	color: white;
+        border-radius: 5px;
+	/*Some cool shadow and glow effect*/
+	box-shadow: 
+		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+		0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+/*heading styles*/
+.accordo h3 {
+	font-size: 22px;
+	line-height: 55px;
+	padding: 0 15px;
+	cursor: pointer;
+	/*fallback for browsers not supporting gradients*/
+	background: #2C3E50; 
+	background: linear-gradient(#2C3E50, #002535);
+        border-radius: 5px;
+        letter-spacing: 2px
+}
+/*heading hover effect*/
+.accordo h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+/*iconfont styles*/
+.accordo h3 span i {
+	font-size: 16px;
+	margin-right: 10px;
+}
+/*list items*/
+.accordo li {
+	list-style-type: none;
+}
+/*links*/
+.accordo ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 38px;
+	display: block;
+	padding: 0 30px;
+	/*transition for smooth hover animation*/
+	transition: all 0.15s;
+}
+/*hover effect on links*/
+.accordo ul ul li a:hover {
+	background: #003545;
+	border-left: 5px solid lightgreen;
+}
+/*Lets hide the non active LIs by default*/
+.accordo ul ul {
+	display: none;
+}
+.accordo li.active ul {
+	display: block;
+}
+
